@@ -8,10 +8,10 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-   host: process.env.DB_HOST || "localhost",
-  user: process.env.DB_USER || "root",
-  password: process.env.DB_PASSWORD || "root",
-  database: process.env.DB_NAME || "enquiryform",
+   host: "13.126.145.26",
+  user: "root",
+  password: "root",
+  database: "enquiryform",
 });
 
 db.connect((err) => {
