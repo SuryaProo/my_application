@@ -8,9 +8,9 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-  host: "localhost",
+   host: "13.126.145.26",
   user: "root",
-  password: "",
+  password: "root",
   database: "enquiryform",
 });
 
